@@ -3,7 +3,7 @@ package edu.coreUtil.genericsJDBC;
 /**
  * 
  * 
- * @author Reginaldo Costa
+ * @author Eduardo nofre
  *
  */
 
