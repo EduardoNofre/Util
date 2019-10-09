@@ -7,11 +7,10 @@ import java.sql.SQLException;
 /**
  * 
  * 
- * @author Reginaldo Costa
  *
  * 
- * @ObservaÁ„o: Essa Classe deve ser extendida toda vez que for utilizar alguma
- *              conex„o com banco
+ * @Observa√ß√£o: Essa Classe deve ser extendida toda vez que for utilizar alguma
+ *              conex√£o com banco
  * 
  *
  */
@@ -56,7 +55,7 @@ public abstract class JDBCAbstractConnection extends JDBCAbstract implements JDB
 
 		} catch (SQLException ex) {
 
-			System.out.println("N„o foi possÌvel fechar a conex„o!");
+			System.out.println("N√£o foi poss√≠vel fechar a conex√£o!");
 		}
 	}
 
